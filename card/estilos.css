@@ -1,0 +1,83 @@
+.prodview{
+    display: flex;
+    font-family:'Courier New';
+    width: inherit;
+    padding: 10px;
+}
+
+.icon-sm {
+    width: 40px;
+}
+
+.icon-md {
+    width: 100px;
+}
+
+.icon-lg {
+    width: 150px;
+}
+
+
+/* -------------------IZQUIERDA------------------- */
+
+.izquierda {
+    margin: 20px;
+}
+.img {
+    width: 200px;
+}
+
+.mini-img {
+    width: 40px;
+    height: 40px;
+   border: solid black 2px;
+    margin: 5px;
+}
+
+.mini{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+
+/* -------------------MEDIO------------------- */
+
+
+
+/* -------------------DERECHA------------------- */
+
+.derecha {}
+.desc {
+    display: flex;
+}
+.buy {
+
+    height: 30px;
+    width: inherit;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family:'Courier New';
+
+}
+ 
+button .carrito {
+    width: 30px;
+    height: 30px;
+}
+
+.botones {
+    display: flex;
+}
+
+button {
+    border: none ;
+    background-color: transparent;
+    margin: 10px;
+
+}
+
